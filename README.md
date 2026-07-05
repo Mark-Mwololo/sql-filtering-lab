@@ -101,3 +101,15 @@ SELECT * FROM employees WHERE NOT department = 'Information Technology';
 
 In this project, I practiced using SQL to filter and retrieve specific records from both login activity logs and employee data in order to support a security investigation and routine department updates. This kind of targeted querying is a core skill for a SOC analyst, where the ability to quickly isolate relevant login attempts, flag suspicious patterns, and pull precise employee or system records can directly impact how fast a threat is identified and contained. Being comfortable writing efficient, accurate SQL filters means less time sifting through irrelevant data and more time focused on actual analysis and response. This project reflects the kind of hands-on database querying I'd bring to a security operations role, where speed and precision in data retrieval are essential to keeping an organization's systems secure.
 
+## Repository Structure
+
+```
+├── README.md
+└── sql-lab-images/
+    ├── 01_after_hours_failed_logins.png
+    ├── 02_specific_date_logins.png
+    ├── 03_outside_mexico_logins.png
+    ├── 04_marketing_east_office.png
+    ├── 05_finance_or_sales.png
+    └── 06_not_it_department.png
+```
